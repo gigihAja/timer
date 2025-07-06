@@ -50,7 +50,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (totalSeconds == 602) {
       AudioPlayer().play(AssetSource('audio/Bel-Ganti.mp3'));
     } else if (totalSeconds == 599) {
-      AudioPlayer().play(AssetSource('audio/Waktunya-Membaca.mp3'));
+      AudioPlayer().play(AssetSource('audio/Waktunya-membaca.mp3'));
     }
 
     if (totalSeconds == 541) {
